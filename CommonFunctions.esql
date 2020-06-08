@@ -673,3 +673,4 @@ CREATE PROCEDURE MTIResponse(IN mtiVersion CHARACTER,IN mtiClass CHARACTER,IN mt
 	RETURNS BOOLEAN
 	LANGUAGE JAVA
 	EXTERNAL NAME "com.ibm.broker.IAM3.Log4jNode.initLog4j";
+	--this is for testing
