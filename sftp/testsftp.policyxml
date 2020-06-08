@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="FtpServer" policyName="testsftp" policyTemplate="FtpServer">
+    <fileFtpServer>localhost</fileFtpServer>
+    <fileFtpAccountInfo></fileFtpAccountInfo>
+    <fileFtpDirectory></fileFtpDirectory>
+    <fileFtpUser>chanu</fileFtpUser>
+    <fileFtpTransferMode>BINARY</fileFtpTransferMode>
+    <fileFtpScanDelay>60</fileFtpScanDelay>
+    <fileFtpConnectionType>ACTIVE</fileFtpConnectionType>
+    <strictHostKeyChecking>false</strictHostKeyChecking>
+    <allowedCiphers></allowedCiphers>
+    <fileFtpCompression>0</fileFtpCompression>
+    <remoteTransferType>FTP</remoteTransferType>
+    <knownHostsFile></knownHostsFile>
+    <mac></mac>
+    <timeoutInterval>0</timeoutInterval>
+    <preserveRemoteFileDate>false</preserveRemoteFileDate>
+  </policy>
+</policies>
